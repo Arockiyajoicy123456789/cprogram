@@ -4,7 +4,7 @@ int main()
 int no;
 printf("Enter the number");
 scanf("%d",&no);
-if(no/2==0)
+if(no%2==0)
 {
 printf("THE NUMBER IS EVEN");
 }
