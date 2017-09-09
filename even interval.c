@@ -8,4 +8,5 @@ if(num%2==0)
 {
 printf("%d",num);
 }
+  return 0;
 }
