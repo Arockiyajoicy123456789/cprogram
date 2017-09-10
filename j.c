@@ -5,7 +5,7 @@ int a,b,i,temp1,temp2,result=0,remainder,n=0;
 printf("Enter two numbers(intervals):");
 scanf("%d %d",&a,&b);
 printf("Armstrond number between %d and %d are:",a,b);
-for(i=low+1;i<high;++i)
+for(i=a+1;i<b;++i)
 {
 temp2=i;
 temp1=i;
