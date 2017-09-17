@@ -2,7 +2,7 @@
 int main()
 {
 char c;
-int lowercasevowel,uooercasevowel;
+int lowercasevowel,uppercasevowel;
 printf("Enter the character:");
 scanf("%c",&c);
 lowercasevowel=(c=='a'||c=='e'||c=='i'||c=='o'||c=='u');
