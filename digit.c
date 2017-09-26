@@ -10,7 +10,7 @@ digit=number%10;
 reversenumber=reversenumber*10+digit;
 number/=10;
 }
-printf("Revese number=%d",reversenumber);
+printf("Reverse number=%d",reversenumber);
 return 0;
 }
 
