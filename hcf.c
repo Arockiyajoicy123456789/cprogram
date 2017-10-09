@@ -2,7 +2,7 @@
 int main()
 {
 int i,min,num1,num2,hcf=1;
-printf("Enter any two numbe to find HCF:");
+printf("Enter any two number to find HCF:");
 scanf("%d%d",&num1,&num2);
 min=(num1<num2)?num1:num2;
 for(i=1;i<=min;i++)
