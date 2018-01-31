@@ -1,15 +1,15 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
-char str[30];
+char str[30]="HELLO WORLD";
 int i,count=0;
-printf("Enter the string:");
-scanf("%s",&str[i]);
-for(i=0;str[i]!=NULL;i++)
+for(i=0;str[i]!='\0';i++)
 {
 if (str[i]==' ')
 count++;
-printf("%d",count);
 }
+printf("%d",count);
 return 0;
 }
+
