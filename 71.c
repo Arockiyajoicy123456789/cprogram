@@ -7,7 +7,7 @@ char b[10];
 printf("enter the string:");
 scanf("%s",a);
 strcpy(b,a);
-a=strrev(a);
+strrev(a);
 i=strcmp(a,b);
 if(i==0)
 {
